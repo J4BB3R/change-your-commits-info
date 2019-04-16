@@ -12,4 +12,4 @@ The commit date or sha1 are not altered only the name and email of the author in
 ### HOW-TO
 Just add your infos in ```change.sh``` and run it. If you want to only change mail or nickname. Change only the new variable that will be enough.
 
->If you plan to change your infos on github you obviously need to work on an unprotected branch (log rewrite allowed) and disable >the mail in commit protection in your settings. Just do a ```git push origin <branch> --force-with-lease``` your commits would be >updated.
+If you plan to change your infos on github you obviously need to work on an unprotected branch (log rewrite allowed) and disable the mail in commit protection in your settings. Just do a ```git push origin <branch> --force-with-lease``` your commits would be updated.
